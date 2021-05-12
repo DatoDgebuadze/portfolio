@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="weather-box">
+            <div class="row1">
+                <h2 class="weather-location"></h2>
+                <canvas class="weatherType" id="icon1" width="128" height="128"></canvas>
+            </div>
+            <div class="row2">
+                <h1 class="temp"></h1>
+                <span class="temp-type">°C</span>
+            </div>
+            <h2 class="weather-description"></h2>
+            <p class="made-by">made-by Davit Dgebuadze. Weather API is used for data transfer</p>
+            <p class="privacy-policy">როგორ უნდა გამოიყენო ჩვენი სერვისი? ეს ძალიან მარტივია ამისათვის საჭიროა ჩვენს API -ს ჰქონდეს წვდომა თქვენს მისამართზე<br>რადგან სატელიტიდან სწორი ინფორმაცია მოვიდეს თქვენს ლოკაციაზე ამინდის პროგნოზის შესახებ. გმადლობთ ყურადღებისათვის.</p>
+            <p>სატესტო ვერსია - მალე დაემატება ნავიგაცია, და ინსტრუქცია.</p>
+        </div>
+    </div>
+    <script src="skycons.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
